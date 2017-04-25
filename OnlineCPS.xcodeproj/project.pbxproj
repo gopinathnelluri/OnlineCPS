@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		960C10671EB0102200DE84CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960C10661EB0102200DE84CE /* AppDelegate.swift */; };
+		960C10691EB0102200DE84CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960C10681EB0102200DE84CE /* ViewController.swift */; };
+		960C106C1EB0102200DE84CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 960C106A1EB0102200DE84CE /* Main.storyboard */; };
+		960C106F1EB0102200DE84CE /* OnlineCPS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 960C106D1EB0102200DE84CE /* OnlineCPS.xcdatamodeld */; };
+		960C10711EB0102200DE84CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 960C10701EB0102200DE84CE /* Assets.xcassets */; };
+		960C10741EB0102200DE84CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 960C10721EB0102200DE84CE /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		960C10631EB0102200DE84CE /* OnlineCPS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnlineCPS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		960C10661EB0102200DE84CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		960C10681EB0102200DE84CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		960C106B1EB0102200DE84CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		960C106E1EB0102200DE84CE /* OnlineCPS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OnlineCPS.xcdatamodel; sourceTree = "<group>"; };
+		960C10701EB0102200DE84CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		960C10731EB0102200DE84CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		960C10751EB0102200DE84CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		960C10601EB0102200DE84CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		960C105A1EB0102200DE84CE = {
+			isa = PBXGroup;
+			children = (
+				960C10651EB0102200DE84CE /* OnlineCPS */,
+				960C10641EB0102200DE84CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		960C10641EB0102200DE84CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				960C10631EB0102200DE84CE /* OnlineCPS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		960C10651EB0102200DE84CE /* OnlineCPS */ = {
+			isa = PBXGroup;
+			children = (
+				960C10661EB0102200DE84CE /* AppDelegate.swift */,
+				960C10681EB0102200DE84CE /* ViewController.swift */,
+				960C106A1EB0102200DE84CE /* Main.storyboard */,
+				960C10701EB0102200DE84CE /* Assets.xcassets */,
+				960C10721EB0102200DE84CE /* LaunchScreen.storyboard */,
+				960C10751EB0102200DE84CE /* Info.plist */,
+				960C106D1EB0102200DE84CE /* OnlineCPS.xcdatamodeld */,
+			);
+			path = OnlineCPS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		960C10621EB0102200DE84CE /* OnlineCPS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 960C10781EB0102200DE84CE /* Build configuration list for PBXNativeTarget "OnlineCPS" */;
+			buildPhases = (
+				960C105F1EB0102200DE84CE /* Sources */,
+				960C10601EB0102200DE84CE /* Frameworks */,
+				960C10611EB0102200DE84CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OnlineCPS;
+			productName = OnlineCPS;
+			productReference = 960C10631EB0102200DE84CE /* OnlineCPS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		960C105B1EB0102200DE84CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Gopinath Nelluri";
+				TargetAttributes = {
+					960C10621EB0102200DE84CE = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = E5K445D3M7;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 960C105E1EB0102200DE84CE /* Build configuration list for PBXProject "OnlineCPS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 960C105A1EB0102200DE84CE;
+			productRefGroup = 960C10641EB0102200DE84CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				960C10621EB0102200DE84CE /* OnlineCPS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		960C10611EB0102200DE84CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				960C10741EB0102200DE84CE /* LaunchScreen.storyboard in Resources */,
+				960C10711EB0102200DE84CE /* Assets.xcassets in Resources */,
+				960C106C1EB0102200DE84CE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		960C105F1EB0102200DE84CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				960C106F1EB0102200DE84CE /* OnlineCPS.xcdatamodeld in Sources */,
+				960C10691EB0102200DE84CE /* ViewController.swift in Sources */,
+				960C10671EB0102200DE84CE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		960C106A1EB0102200DE84CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				960C106B1EB0102200DE84CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		960C10721EB0102200DE84CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				960C10731EB0102200DE84CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		960C10761EB0102200DE84CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		960C10771EB0102200DE84CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		960C10791EB0102200DE84CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E5K445D3M7;
+				INFOPLIST_FILE = OnlineCPS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.gopinathnelluri.OnlineCPS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		960C107A1EB0102200DE84CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E5K445D3M7;
+				INFOPLIST_FILE = OnlineCPS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.gopinathnelluri.OnlineCPS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		960C105E1EB0102200DE84CE /* Build configuration list for PBXProject "OnlineCPS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				960C10761EB0102200DE84CE /* Debug */,
+				960C10771EB0102200DE84CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		960C10781EB0102200DE84CE /* Build configuration list for PBXNativeTarget "OnlineCPS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				960C10791EB0102200DE84CE /* Debug */,
+				960C107A1EB0102200DE84CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		960C106D1EB0102200DE84CE /* OnlineCPS.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				960C106E1EB0102200DE84CE /* OnlineCPS.xcdatamodel */,
+			);
+			currentVersion = 960C106E1EB0102200DE84CE /* OnlineCPS.xcdatamodel */;
+			path = OnlineCPS.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 960C105B1EB0102200DE84CE /* Project object */;
+}
